@@ -1,0 +1,124 @@
+/*main*/
+
+:root{
+    --red: #e50914;
+    --black: #141414;
+    --cinza: #AAA;
+    --white: #ffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+/*HEAD*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--white);
+}
+
+/*Principal title*/
+
+.principal-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%) , url('/src/images/furious9.jpeg');
+
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.principal-movie .container{
+    width: 60%;
+}
+
+.principal-movie .description{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.title{
+    margin-top: 18%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 35px;
+    margin-right: 5px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.carousel-movie{
+    margin-top: 20px;
+}
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+}
+
+.item:hover{
+    background: rgba(0, 0, 0, 0.308);
+}
+
+.category{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
