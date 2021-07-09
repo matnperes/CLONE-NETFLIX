@@ -9,10 +9,28 @@
         margin-top: 5px;
     }
 
+    .principal-movie .description{
+        display: none;
+    }
+    .principal-movie .container{
+        width: 90%;
+    }
+    header .logo{
+        margin-bottom: 15px;
+    }
+
+    .title{
+        margin-bottom: 50px;
+    }
 }
 
 @media (min-width:1000px){
     .principal-movie .description{
-        width: 50%;
+        width: 90%;
+    }
+
+    .principal-movie{
+        background-position: 50% 100%;
+
     }
 }

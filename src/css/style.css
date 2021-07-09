@@ -29,10 +29,12 @@ header .container{
 }
 
 header .logo{
+    margin-top: 5px;
     margin-left: 5px;
-    color: var(--red);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 220px;
+
 }
 
 header nav a{
@@ -49,7 +51,8 @@ header nav a:hover{
 
 .principal-movie{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%) , url('/src/images/furious9.jpeg');
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%) , url('/src/images/Eternals.jpg');
+    
 
     height: 400px;
     background-size: cover;
@@ -71,7 +74,7 @@ header nav a:hover{
 
 .principal-movie .description{
     margin-top: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .title{
