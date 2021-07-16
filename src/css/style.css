@@ -72,6 +72,30 @@ header nav a:hover{
     width: 60%;
 }
 
+.indication-classification{
+    padding: 10px 0px;
+    padding-right: 2px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.indication{
+    display: flex;
+}
+
+.star{    
+    width: 17px;
+    height: 17px;
+}
+
+.indication-classification .classification{
+width: 20px;
+height: 20px;
+}
+
 .principal-movie .description{
     margin-top: 10px;
     margin-bottom: 50px;
